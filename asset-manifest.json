@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react.formulaire-/static/css/main.4b205f4f.css",
+    "main.js": "/react.formulaire-/static/js/main.6a4f722b.js",
+    "static/js/787.4f57ac2b.chunk.js": "/react.formulaire-/static/js/787.4f57ac2b.chunk.js",
+    "static/media/logo EMI.png": "/react.formulaire-/static/media/logo EMI.ffb51294f168f0fdb188.png",
+    "index.html": "/react.formulaire-/index.html",
+    "main.4b205f4f.css.map": "/react.formulaire-/static/css/main.4b205f4f.css.map",
+    "main.6a4f722b.js.map": "/react.formulaire-/static/js/main.6a4f722b.js.map",
+    "787.4f57ac2b.chunk.js.map": "/react.formulaire-/static/js/787.4f57ac2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b205f4f.css",
+    "static/js/main.6a4f722b.js"
+  ]
+}
