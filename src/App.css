@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background: linear-gradient(60deg, #f1f3f4, #3F5EFB);
+  height: flex;
+  font-family: arial, sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+
+
+form {
+ 
+  height: 1280px;
+  
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+  text-align: center;
+  width: 500px;
+  
+}
+p {
   color: white;
+  font-weight: 500;
+  opacity: .7;
+  font-size: 1.4rem;
+  margin-bottom: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+  
+a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+  text-shadow: 2px 2px 6px #f6f2f240;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:active {
+  text-shadow: none;
+}
+input {
+  background: transparent;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  padding: 1rem;
+  width: 200px;
+  border-radius: 50px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+  transition: all .3s;
+  margin-bottom: 2em;
+  margin-top: 10px;
+}
+input:hover,
+input[type="email"]:focus,
+input[type="password"]:focus{
+background: rgba(255,255,255,0.1);
+box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+}
+  
+input[type="button"] {
+margin-top: 21px;
+width: 150px;
+font-size: 1rem;
+cursor: pointer;
+}
+
+input::placeholder {
+text-decoration-color:rgba(109, 19, 19, 0);
+
+color: #fbfbfb;
+}
+::placeholder {
+  text-decoration-color:rgba(109, 19, 19, 0);
+  
+  color: #fbfbfb;
+}
+textarea {
+  background: transparent;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  padding: 1rem;
+ 
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+  transition: all .3s;
+  margin-bottom: 2em;
+  margin-left:30px;
+
+}
+textarea::placeholder {
+  color: #f2f5f9;
+}
+label {
+ font: serif;
+}
+.ligne{
+  width:auto;
+height: 2px;
+
+border-style: solid;
+border-color: #1f71dd;
+background-color: #1f71dd;
+
+
+
+}
+.container{
+margin-top: -20px;
+display: flex;
+}
+@media (max-width: 700px) {
+body .holygrail-body {
+  flex-direction: column;
+}
+body .holygrail-body .side-navigation, body .holygrail-body .flex-aside {
+  width: 100%;
+}
 }

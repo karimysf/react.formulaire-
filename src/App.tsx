@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import { Home } from './home/inputt';
+
+import { About } from './components/About';
+import logoEMI from './images/logo EMI.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <div className="container">
+      
+    <form className="bg-opacity-30 bg-white p-30 h-1280 rounded-20 border-l-1 border-t-1 backdrop-blur-10 shadow-20-20-40--6 text-center w-500">
+      <nav><img src={logoEMI} alt="" /></nav>
+      <Home/>
+     
+      
+    </form>
+
+    
+  </div>
   );
 }
 
